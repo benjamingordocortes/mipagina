@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+header nav{
+    position: relative;
+    height: 5vh ;
+}
+header nav img{
+    position: absolute;
+    height:5vh;
+    left: 47.5%;
+    width: 5%;
+    margin: auto;
+}
+header h1{
+    position: absolute;
+    font-family: monospace;
+    color:white;
+    text-align: center;
+    height: 10vh;
+    top: 35%;
+    line-height: 10vw;
+    width: 100%;
+    font-size: 8vh; 
+}
+header h1 strong{
+    color: red;
+}
+@keyframes prompt{
+    from{opacity: 100;}
+    to{opacity: 0;}
+}
+header h1 span{
+    animation: prompt 1s infinite;
+}
+#rrss{
+    z-index: 1000;
+    position: fixed;
+    width: 5%;
+    left: 0;
+    top: 20%;
+    bottom: 30%;
+    height: 50vh;
+    background-color:black;
+
+}
+#rrss img{
+    width: 80%;
+    height: calc(50vmin/4);
+    margin: auto 10%;
+
+}
+#accesos{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+}
+#accesos div{
+    position: absolute;
+    width: 80%;
+    height: 10vh;
+    left: 10%;
+    right: 10%;
+}
+#accesos div p{
+    color: white;
+    display: inline;
+    float: left;
+    width: 25%;
+    text-decoration: none;
+    height: 10vh;
+    text-align:center;
+    line-height: 10vh;
+    font-size: 2vh;
+    font-family: monospace;
+}
+main{
+    position: relative;
+    background-color: black;
+    width: 80%;
+    margin: 10vh auto;
+    height: 100vh;
+    display: grid;
+   grid-template-columns: 50% 50%;
+}
+section {
+    outline: 1px solid white;
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    color: white;
+    font-family: monospace;
+}
+section h1{
+    text-align: center;
+    margin-top: 1vh;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    height: 10vh;
+    background-color: black;
+    left: 0;
+    width: 100%;
+}
+.modoclaro{
+    color: black;
+    background-color: white;
+}
+.modooscuro{
+    color: white;
+    background-color: black;
+}
